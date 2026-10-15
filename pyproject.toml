@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kafka-offset-audit"
+version = "0.1.0"
+description = "Offline captured-input analysis with explicit evidence and bounded contracts"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Dr. Nripanka Das"}]
+dependencies = []
+
+[project.scripts]
+kafka-offset-audit = "kafka_offset_audit:main"
+
+[tool.setuptools]
+py-modules = ["kafka_offset_audit"]

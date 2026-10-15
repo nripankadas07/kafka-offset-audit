@@ -1,0 +1,12 @@
+{
+  "reset": "none",
+  "partitions": [
+    {
+      "topic": "orders",
+      "partition": 0,
+      "log_start": 12,
+      "log_end": 27,
+      "committed": 20
+    }
+  ]
+}
